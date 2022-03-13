@@ -16,6 +16,9 @@ app.use(express.json());
 app.use(express.urlencoded({extended: false}))
 app.use(express.static('public'));
 
+// Set your routes here
+app.use(require('./routes/index'));
+
 
 // Create local Server Function
 app.listen(PORT,() => {

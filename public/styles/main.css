@@ -1,0 +1,13 @@
+/**
+This would be your primary local stylesheet.  If you want to create additional ones, just link them to the "header" partial
+**/
+
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    font-weight: bold;
+    margin-top: 200px;
+    text-align: center;
+}

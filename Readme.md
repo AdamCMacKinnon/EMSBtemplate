@@ -1,6 +1,6 @@
 #Template for EMSB Project w/ Heroku Deployment#
 
-### Pre-Done skeleton for project built around following tech stack: ###
+### Pre-Done skeleton for project built around following tech stack (Node.js v16.13.0): ###
 
 1. Express
 2. Mustache (Page Templates)
@@ -22,10 +22,6 @@ From command line: **heroku config:get <ENV_VARIABLE>**
 4.  Set config -> config.js with DB settings
 5.  create .env file and set ENV variables
 
-# EMSBtemplate
+***to run locally use script *npm run local* ***
 
-###Instructions###
-1.  Git Clone Repo to local
-2.  *npm install*
-3.  *code .env* (manually grab ENV variables)
 

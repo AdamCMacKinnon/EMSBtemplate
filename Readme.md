@@ -18,3 +18,9 @@ From command line: **heroku config:get <ENV_VARIABLE>**
 
 
 # EMSBtemplate
+
+###Instructions###
+1.  Git Clone Repo to local
+2.  *npm install*
+3.  *code .env* (manually grab ENV variables)
+

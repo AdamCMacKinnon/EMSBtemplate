@@ -1,4 +1,4 @@
-#Template for EMSB Project w/ Heroku Deployment
+#Template for EMSB Project w/ Heroku Deployment#
 
 ### Pre-Done skeleton for project built around following tech stack: ###
 
@@ -15,6 +15,11 @@
 *Seting ENV Variables:*
 From command line: **heroku config:get <ENV_VARIABLE>**
 
-
+### To create on local:###
+1.  clone repo
+2.  npm install
+3.  use dbsetup.sh to configure DB tables, schema, etc..
+4.  Set config -> config.js with DB settings
+5.  create .env file and set ENV variables
 
 # EMSBtemplate

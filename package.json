@@ -8,7 +8,9 @@
     "start": "node app.js",
     "local": "nodemon app.js",
     "prod": "set NODE_ENV=production && node app.js",
-    "migrate": "sequelize db:migrate"
+    "migrate": "sequelize db:migrate",
+    "gitSetup": "sh gitsetup.sh",
+    "deploy": "git push heroku main"
   },
   "author": "Adam C. MacKinnon",
   "license": "ISC",

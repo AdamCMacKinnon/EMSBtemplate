@@ -5,7 +5,7 @@
 1. Express
 2. Mustache (Page Templates)
 3. Sequelize (ORM For Data Processing)
-4. Boostrap (Styling Elements)
+4. Boostrap 4 (Styling Elements)
 
 **Styling used with pure CSS or some other library can be installed**
 

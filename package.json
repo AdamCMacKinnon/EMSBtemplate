@@ -1,7 +1,7 @@
 {
   "name": "emsb",
   "version": "1.0.0",
-  "description": "Skeleton for Node.js full-stack web app with Sequelize and Mustache Page Templates",
+  "description": "Express Mustache Sequelize Bootstrap Template",
   "main": "app.js",
   "scripts": {
     "test": "npm run test",
@@ -12,7 +12,7 @@
     "deploy": "git push heroku main"
   },
   "author": "Adam C. MacKinnon",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "dotenv": "^16.0.0",
     "express": "^4.17.3",

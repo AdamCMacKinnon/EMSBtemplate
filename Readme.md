@@ -20,7 +20,12 @@ From command line: **heroku config:get <ENV_VARIABLE>**
 2.  npm install
 3.  use dbsetup.sh to configure DB tables, schema, etc..
 4.  Set config/config.js with DB settings
-5.  create .env file and set ENV variables
+
+### Creating ENV Variables ###
+1.  Create a .env.stage file (for a testing environment)
+2.  Create a .env.production file (for production)
+
+-- This will allow you to enter your environmental variables for cloud database instances.
 
 ***to run locally use script *npm run local* ***
 
